@@ -1,7 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 
-with open('test.html', 'r') as f:
+with open('sample1.html', 'r') as f:
 	soup = BeautifulSoup(f.read(), 'html.parser')
 
 # r = requests.get('http://www.google.com.br')
